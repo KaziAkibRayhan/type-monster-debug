@@ -63,6 +63,7 @@ const validate = (key) => {
 };
 
 // FINISHED TYPING
+
 const gameOver = () => {
   document.removeEventListener("keydown", typeController);
   // the current time is the finish time
