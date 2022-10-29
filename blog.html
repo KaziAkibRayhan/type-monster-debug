@@ -10,7 +10,7 @@
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="p-5">
     <main>
         <section class="container">
             <blockquote class="blockquote">
@@ -20,9 +20,20 @@
                 doesn't expire, data in sessionStorage is cleared when the page session ends. Whenever a document is
                 loaded in a particular tab in the browser, a unique page session gets created and assigned to that
                 particular tab.</p>
-            <blockquote>
-                <p></p>
+            <blockquote class="blockquote">
+                <p>2. difference between global scope and block scope in javascript ?</p>
             </blockquote>
+            <p>Answer: In a browser environment, the global scope is controlled by the window object while in Node. js,
+                it's controlled by the global object. Block scopes are what you get when you use if statements, for
+                statements, and the like</p>
+            <h6>Global Scope</h6>
+            <p>Variables defined outside any function, block, or module scope have global scope. Variables in global
+                scope can be accessed from everywhere in the application.</p>
+            <h6>Block Scope</h6>
+            <p>Block scope is defined with curly braces. It is separated by { and }.
+                Variables declared with let and const can have block scope. They can only be accessed in the block in
+                which they are defined.</p>
+
         </section>
     </main>
 </body>
